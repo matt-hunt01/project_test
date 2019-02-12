@@ -1,0 +1,52 @@
+@import "./variable.scss";
+@import "./mixins.scss";
+
+
+/* Header css */
+
+.header { 
+    padding: 20px 0px;
+    background-color:$headerstrip;
+    position: fixed;
+     top: 0;
+     z-index: 9;
+    width: 100%;
+        &__menu {
+            display: flex;
+            justify-content: space-around;
+            max-width: 540px;
+            margin: 15px auto 0px;
+         }
+         &__nav { 
+           list-style: none;
+        }
+        &__link {
+          margin: 0 1em;
+          line-height: 1;
+          font-family: "poppins",Helvetica,sans-serif;
+          font-size: 16px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: $whiteColor;
+          -webkit-transition: color 0.7s ease;
+          transition: color 0.7s ease;
+          &:hover { color:$blackSecondaryColor; }
+       }
+       &__btn {
+        background-color: $themeColor;
+        color: $whiteColor;
+        font-size: 18px;
+        padding: 9px 30px;
+        border-radius: 50px;
+        margin-top: 5px;
+        text-transform: uppercase;
+        margin-right: 0px;
+        &:hover { 
+            background:$blackSecondaryColor;
+            color: $whiteColor; }
+        }
+}
+
+
+
+

@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import "partials/variable.scss";
+@import "partials/mixins.scss";
+@import "bootstrap/bootstrap.scss";
+@import "partials/header.scss";
+@import "partials/homeBanner.scss";
+
+body { font-family: $fontFamily; }     
